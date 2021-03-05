@@ -1,5 +1,100 @@
-body, *{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+body{
+    height: 100%;
+    width: 100%;
 }
+.container1{
+    width: 100%;
+    height: 700px;
+    border: blue solid 1px;
+    display: flex;
+    flex-direction: row;
+    
+    flex-wrap: wrap;
+}
+.column1{
+    
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+.column2{
+    display: flex;
+    flex-direction: column;
+}
+.row4-1{
+    display: flex;
+    flex-direction: row;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+}
+.row3{
+    display: flex;
+    flex-direction: row;
+}
+.row4{
+    display: flex;
+    flex-direction: row;
+}
+.row11{
+    display: flex;
+    flex-direction: row;
+}
+.row22{
+    display: flex;
+    flex-direction: row;
+}
+
+ 
+.row222{
+    display: flex;
+    flex-direction: row;
+    
+}
+.row333{
+    display: flex;
+    flex-direction: row;
+}
+.box-red{
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 10px;
+
+    } 
+.box-blue{
+    margin: 5px;
+    width: 210px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 10px;
+}
+.box-green{
+    margin: 5px;
+    width: 100px;
+    height: 210px;
+    background-color: green;
+    border-radius: 10px;
+    
+}
+
+
+.box-orange{
+    margin: 5px;
+    width: 210px;
+    height: 210px;
+    background-color: orange;
+    
+    border-radius: 10px;
+}
+
+
