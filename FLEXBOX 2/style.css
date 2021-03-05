@@ -1,0 +1,136 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 600px;
+}
+.column1{
+    display: flex;
+    flex-direction: column;
+}
+.column1-1{
+    display: flex;
+    flex-direction: column;
+}
+.column2{
+    display: flex;
+    flex-direction: column;
+}
+.column3{
+    display: flex;
+    flex-direction: column;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+}
+.row22{
+    display: flex;
+    flex-direction: row;
+}
+.box1{
+    margin: 5px;
+    text-align: center;
+    font-size: 25px;
+    background-color: palevioletred;
+    width: 180px;
+    height: 100px;
+}
+.box5{
+    margin: 5px;
+    text-align: center;
+    font-size: 25px;
+    background-color: green;
+    width: 180px;
+    height: 100px;
+}
+.box7{
+    margin: 5px;
+    text-align: center;
+    font-size: 25px;
+    background-color: lime;
+    width: 180px;
+    height: 100px;
+}
+.box11{
+    margin: 5px;
+    text-align: center;
+    font-size: 25px;
+    background-color: purple;
+    width: 470px;
+    height: 100px;
+}
+.box2{
+    margin: 5px;
+    text-align: center;
+    font-size: 25px;
+    background-color: violet;
+    width: 280px;
+    height: 210px;
+
+}
+.box8{
+    margin: 5px;
+    text-align: center;
+    font-size: 25px;
+    background-color: green;
+    width: 90px;
+    height: 100px;
+}
+.box9{
+    margin: 5px;
+    text-align: center;
+    font-size: 25px;
+    background-color: skyblue;
+    width: 180px;
+    height: 100px;
+}
+.box3{
+    margin: 5px;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(202, 159, 124);
+    width: 360px;
+    height: 430px;
+}
+.box4{
+    margin: 5px;
+    text-align: center;
+    font-size: 25px;
+    background-color: yellow;
+    width: 180px;
+    height: 100px;
+}
+.box6{
+    margin: 5px;
+    text-align: center;
+    font-size: 25px;
+    background-color: blue;
+    width: 180px;
+    height: 100px;
+}
+.box10{
+    margin: 5px;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(86, 173, 207);
+    width: 180px;
+    height: 100px;
+}
+.box12{
+    margin: 5px;
+    text-align: center;
+    font-size: 25px;
+    background-color: red;
+    width: 180px;
+    height: 100px;
+}
