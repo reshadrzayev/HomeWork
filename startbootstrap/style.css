@@ -1,0 +1,205 @@
+body{
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.maindiv{
+    
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    z-index: 2;
+}
+.heading{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background-image:linear-gradient(black,gray);
+    background-position:top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+#startbootstrap{
+    margin-top: 15px;
+    margin-left: 100px;
+    font-size: 25px;
+}
+.nav-a{
+    margin-right: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: #6c757d;
+}
+.nav-a:hover{
+    color: #f4623a;
+}
+#about{
+    margin-left: 200px;
+}
+.div-nav2{
+    margin-right: 80px;
+    margin-top: 22px;
+}
+.header{
+    opacity: 1;
+    position: absolute;
+    top: 250px;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+}
+.btn-head{
+    margin-top: 30px;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    background-color: #f4623a;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    border-style: none;
+    outline: none;
+    color: white;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+    transition: ease-in-out 0.5s
+
+}
+.btn-head:hover{
+    background-color: #d6370c;
+    color: white;
+    transition:ease-in-out 0.5s
+}
+.content-1{
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    background-color: #f4623a;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.btn-content1{
+    border-radius: 30px;
+    letter-spacing: 0.2px;
+    width: 150px;
+    height: 50px;
+    margin-top: 30px;
+    background-color: #f8f9fa;
+    color: black;
+    border-style: none;
+    outline: none;
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+}
+.btn-content1:hover{
+    background-color: rgb(218, 216, 216);
+}
+.content-2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 550px;
+    
+}
+.content-2-header{
+    width: 100%;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.content2-icons{
+    width: 100%;
+    height: 375px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.content-icon{
+    width: 300px;
+    height: 300px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    text-align: center;
+}
+.fas{
+    color: #f4623a;
+    font-size: 60px;
+}
+.content-3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.content-row1{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+}
+#content-img{
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 33.33%;
+    height: 280px;
+    margin: 0;
+}
+
+.desc
+{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      width: 100%;
+      opacity: 0.01;
+      /* min-height: 355px; */
+      font-size: 1rem;
+      height: 100%;
+      /* padding: 30px 25px 20px; */
+      transition: 0.5s;
+      background: rgba(0, 0, 0, 0.7);
+      color: #fff;
+}
+
+ #content-img:hover .desc,
+ #content-img:focus .desc 
+ {
+     
+     background-color:#f4623a ;
+    opacity: 0.8;
+ }
+ .content-row2{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+}
+ 
+
+ 
