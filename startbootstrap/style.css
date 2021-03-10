@@ -1,4 +1,8 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
+
     font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
     margin: 0;
@@ -25,12 +29,14 @@ body{
     width: 100%;
     background-color: white;
     z-index: 2;
+    box-shadow: 1px 1px 5px rgb(77, 76, 76);
 }
 .heading{
     position: relative;
     width: 100%;
-    height: 700px;
-    background-image:linear-gradient(black,gray);
+    height: 800px;
+    background-image:url(./asd.jpg);
+    
     background-position:top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -59,26 +65,33 @@ body{
     margin-top: 22px;
 }
 .header{
+    background-color: rgba(92, 77, 66, 0.8);
     opacity: 1;
     position: absolute;
-    top: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    top: 0px;
     text-align: center;
     width: 100%;
-    height: 500px;
+    height: 800px;
 }
 .btn-head{
-    margin-top: 30px;
+    margin-bottom: 200px;
     font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     background-color: #f4623a;
     border-radius: 30px;
-    width: 150px;
-    height: 50px;
+    width: 200px;
+    height: 60px;
     border-style: none;
     outline: none;
     color: white;
     letter-spacing: 0.2px;
     cursor: pointer;
     transition: ease-in-out 0.5s
+
 
 }
 .btn-head:hover{
@@ -99,8 +112,8 @@ body{
 .btn-content1{
     border-radius: 30px;
     letter-spacing: 0.2px;
-    width: 150px;
-    height: 50px;
+    width: 200px;
+    height: 60px;
     margin-top: 30px;
     background-color: #f8f9fa;
     color: black;
@@ -200,6 +213,92 @@ body{
     height: auto;
     flex-direction: row;
 }
+.download-div{
+    position: absolute;
+    color: white;
+    background-color: #343a40;
+    width: 100%;
+    height: 350px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.download-btn{
+    border-radius: 30px;
+    letter-spacing: 0.2px;
+    width: 200px;
+    height: 60px;
+    margin-top: 30px;
+    background-color: #f8f9fa;
+    color: black;
+    border-style: none;
+    outline: none;
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+}
+.download-btn:hover{
+    background-color: rgb(218, 216, 216);
+}
+.contact-div{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 300px;
+    width: 100%;
+    height: 600px;
+    
+}
+.contact-text{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.contact-icons{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.iconcon{
+    width: auto;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.mail-link{
+    color: black;
+    text-decoration: none;
+}
+.mail-link:hover{
+    text-decoration: underline;
+}
+.mail-link:active{
+    text-decoration: underline;
+}
+.footer{
+    font-size: 12px;
+    color: #6c757d;
+    background-color: rgb(233, 230, 230);
+    position: relative;
+    top: 300px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
  
 
  

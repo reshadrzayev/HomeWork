@@ -8,17 +8,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body alink="black" vlink="black">
     <div class="maindiv">
         <div class="nav">
             <div class="div-nav1">
                 <a class="nav-a" id="startbootstrap" href="#"><b> Start Bootsrap</b></a>
             </div>
             <div class="div-nav2">
-                <a class="nav-a" id="about " href="#"><b> About</b></a>
-                <a class="nav-a" id="services" href="#"><b> Services</b></a>
-                <a class="nav-a" id="port" href="#"><b>Portfolio</b></a>
-                <a class="nav-a" id="contact" href="#"><b>Contact</b></a>
+                <a class="nav-a" id="about " href="#content1"><b> About</b></a>
+                <a class="nav-a" id="services" href="#content2"><b> Services</b></a>
+                <a class="nav-a" id="port" href="#content3"><b>Portfolio</b></a>
+                <a class="nav-a" id="contact" href="#contactdiv"><b>Contact</b></a>
             </div>
     
         </div>
@@ -27,31 +27,32 @@
     
             </div>
             <div class="header">
-                <h1 style="margin: auto; color: white;">YOUR FAVORITE SOURCE OF FREE BOOTSTRAP THEMES</h1> <br>
+                <h1 style="margin: auto; color: white; margin-top: 250px; font-size: 45px;">YOUR FAVORITE SOURCE OF FREE
+                    <br> BOOTSTRAP THEMES</h1>
                 <hr
                     style="width: 100px;background-color: #f4623a; border-color: #f4623a ; border-width: 2px; border-style: solid;">
-                <p style="color: white; font-size: large; margin-top: 50px;"> Start Bootstrap can help you build better
+                <p style="color: white; font-size: large; margin-bottom: 50px ;"> Start Bootstrap can help you build better
                     websites using the Bootstrap framework! <br>
                     Just download a theme and start customizing, no strings attached!</p>
-                <button class="btn-head"><b> FIND OUT MORE </b></button>
+                <button class="btn-head" onclick="window.location.href='#content1'"><b> FIND OUT MORE </b></button>
             </div>
     
         </div>
-        <div class="content-1">
+        <div class="content-1" id="content1">
             <div class="content-1-header">
                 <h2 style="font-size: 30px; color: white;">We've got what you need!</h2> <br>
                 <hr
                     style="width: 200px; border-width: 2px; border-color: white;background-color: white; border-style: solid; ">
                 <br>
-                <p style="color: white; font-size: larger; "> Start Bootstrap has everything you need to get your new
+                <p style="color: white; font-size: larger;"> Start Bootstrap has everything you need to get your new
                     website up and running in no time! <br>
                     Choose one of our open source, free to download, and easy to use themes! No strings <br>
                     attached!</p>
-                <button class="btn-content1"><b> GET STARTED </b></button>
+                <button class="btn-content1" onclick="window.location.href='#content2'"><b> GET STARTED </b></button>
             </div>
     
         </div>
-        <div class="content-2">
+        <div class="content-2" id="content2">
             <div class="content-2-header">
                 <h2 style="font-size: 33px;">At Your Service</h2> <br>
                 <hr
@@ -85,7 +86,7 @@
             </div>
     
         </div>
-        <div class="content-3">
+        <div class="content-3" id="content3">
             <div class="content-row1">
                 <div id="content-img" style="background-image: url(./1.jpg);">
     
@@ -133,7 +134,43 @@
                 </div>
             </div>
     
+    
         </div>
+        <div class="download-div">
+            <h3 style="font-size: 35px;"><b>Free Download at Start Bootstrap!</b></h3>
+            <button class="download-btn"><b>DOWNLOAD NOW!</b></button>
+        </div>
+    
+        <div class="contact-div" id="contactdiv">
+            
+            <div class="contact-text">
+                <h3 style="font-size: 35px; margin-top: 100px;">Let's Get In Touch!</h3>
+                <hr
+                    style="width: 70px; border-width: 2px; border-color: #f4623a;background-color: #f4623a; border-style: solid; ">
+                <p style="font-size: 20px;">Ready to start your next project with us? Give us a call or send us an email and
+                    we
+                    will get <br> back to you as soon as possible!</p>
+            </div>
+            
+            <div class="contact-icons">
+                <div class="iconcon" id="call-icon">
+                    <i class="fas fa-phone" style="color: #6c757d"></i>
+                    <h4>+1 (555) 123-4567
+                    </h4>
+                </div>
+                <div class="iconcon" id="call-icon">
+                    <i class="fas fa-envelope" style="color: #6c757d"></i>
+                    <a class="mail-link" href="mailto:reshadrzayev00@gmail.com">
+                        <h4>reshadrzayev00@gmail.com</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer">
+            Copyright © 2020 - Start Bootstrap
+        </div>
+    
     </div>
 </body>
 </html>
