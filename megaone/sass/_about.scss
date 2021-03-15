@@ -1,0 +1,239 @@
+.about{
+    width: 100%;
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+        .about-1{
+            width: 100%;
+            height: 600px;
+            display: flex;
+            flex-direction: row;
+        .about-text{
+            width: 39%;
+            height: 600px;
+            display: flex;
+            justify-content: center;    
+            transform: translate(300px);
+            
+            h2{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: bold;
+                font-size: 65px;
+                margin-top: 140px; 
+                letter-spacing: 3px;
+                animation-duration: 1s;
+            animation-name: slideintxt;     
+            }
+        }
+        .about-img{
+            background-image: url(../images/service-img.jpg);
+            background-repeat: no-repeat;
+            width: 61%;
+            height: 600px;
+            animation-duration: 1s;
+            animation-name: slideincontent2;
+        }
+    }
+
+    .about-2{
+        margin-top: 70px;
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        .part1{
+            width: 100%;
+            height: 200px;
+            display: flex;
+            flex-direction: row;
+            .icon1{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 200px;
+                width: 200px;
+                margin-left: 200px;
+                a{  
+                    text-decoration: none;
+                    display: inline-block;
+                    background: linear-gradient(to right, #ec3737 0%, #ec3737 50%, black 50%, );
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    transition: 1s ease;
+                    background-size: 200%;
+                    background-position: right;
+                    
+                    i{
+                        font-size: 100px;
+                    }
+                    
+                }    
+                a:link{
+                    color: black;
+                }
+                a:visited{
+                    color: black;
+                }
+                a:active{
+                    color: black;
+                }
+                a:hover{
+                    background-position: left;
+                }
+            }
+            .text1{
+                line-height: 30px;
+                width: 400px;
+                height: 200px;
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                
+                p{
+                    font-family: 'Roboto', sans-serif;
+                    border-spacing: 10px;
+                    font-size: 17px;
+                }
+            }
+        }
+        .part2{
+            width: 100%;
+            height: 200px;
+            display: flex;
+            flex-direction: column;        
+            align-items: flex-end;
+             .icon2{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 200px;
+                width: 200px;
+                margin-right: 400px;
+                // background-clip: text;
+                // -webkit-background-clip: text;
+
+                a{  
+                    display: inline-block;
+                    text-decoration: none;
+                    background: linear-gradient(to right, #ec3737 0%, #ec3737 50%, black 50%, );
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    transition: 1s ease;
+                    background-size: 200%;
+                    background-position: right ;
+
+                    i{
+                        font-size: 100px;
+                    }
+                    
+                }    
+                a:link{
+                    color: black;
+                }
+                a:visited{
+                    color: black;
+                }
+                a:active{
+                    color: black;
+                }
+                a:hover{
+                    background-position: left ;
+                    // transition: all 0.5s ease;
+                }
+                
+            }
+            .text2{
+                line-height: 30px;
+                width: 400px;
+                height: 200px;
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                margin-right: 265px;
+                text-align: center;
+
+                
+                p{
+                    font-family: 'Roboto', sans-serif;
+                    border-spacing: 10px;
+                    font-size: 17px;                }
+            }
+        }
+        .part3{
+            width: 100%;
+            height: 200px;
+            display: flex;
+            flex-direction: row;
+            margin-top: 100px;
+            .text3{
+                line-height: 30px;
+                width: 450px;
+                height: 200px;
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                margin-left: 200px;
+                text-align: right;
+                p{
+                    font-family: 'Roboto', sans-serif;
+                    border-spacing: 10px;
+                    font-size: 17px;                     
+                }
+            }
+            .icon3{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 200px;
+                width: 200px;
+                a{  
+                    text-decoration: none;
+                    display: inline-block;
+                    background: linear-gradient(to right, #ec3737 0%, #ec3737 50%, black 50%, );
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    transition: 1s ease;
+                    background-size: 200%;
+                    background-position: right;
+
+                    i{
+                        font-size: 100px;
+                    }
+                    
+                }    
+                a:link{
+                    color: black;
+                }
+                a:visited{
+                    color: black;
+                }
+                a:active{
+                    color: black;
+                }
+                a:hover{
+                    background-position: left;
+                }
+                
+            }
+        }
+    }
+}
+@keyframes slideincontent2{
+    from{
+        margin-left: 100%;
+    }
+    to{
+        margin-left: 0%;
+    }
+}
+@keyframes slideintxt{
+    from{
+        margin-right: 400%;
+    }
+    to{
+        margin-right:0% ;
+    }
+}

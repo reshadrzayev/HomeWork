@@ -1,0 +1,116 @@
+.portfolio{
+    width: 100%;
+    height: 800px   ;
+    .port1{
+        width: 100%;
+        height: 680px;
+        display: flex;
+        flex-direction: row;
+        .port-txt{
+            width: 30%;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            font-size: 60px;
+            transform: translate(220px);
+            line-height: 70px;
+            margin-top: 20px;
+            animation-duration: 1s;
+            animation-name: port-text;
+            h2{
+                letter-spacing: 1px;
+                animation-duration: 1s;
+                animation-name: port-text;
+            }
+            #fi{
+                margin-top: 50px;
+                margin-right: 170px;
+                font-size: 50px;
+                animation-duration: 1s;
+                animation-name: left-icon;
+            }
+            #si{
+                margin-right: 70px;
+                margin-top: -10px;
+                font-size: 50px;
+                animation-duration: 1s;
+                animation-name: right-icon;
+
+            }
+        }
+        .port-img{
+            width: 76%;
+            height: 650px;
+            background-image: url(../images/portfolio-img.jpg);
+            background-size: cover;
+            background-position: center;
+            margin-right: 20px;
+        }
+    }
+    .port2{
+        font-family: 'Roboto', sans-serif;
+
+        width: 1074px;
+        height: 150px;
+        display: flex;
+        justify-content:space-between;
+        margin-right: 20px;
+        float: right;
+        .port-txt2{
+            h3{
+                font-size: 30px;
+                font-weight:bolder ;
+            }
+        }
+        .portbtn{
+            button{
+                font-size: 15px;
+                width: 160px;
+                height: 40px;
+                border-radius: 35px;
+                border-style: solid;
+                border-color: black;
+                background-color: #fff;
+                border-width: 1px;
+                outline: none;
+                transition: 0.5s;
+                font-weight: 500;
+
+            }
+            button:hover{
+                background-color: black;
+                color: white;
+            }
+        }
+        
+    }
+}
+@keyframes left-icon{
+    from{
+    margin-right: 300%;
+    }
+    to{
+        margin-right: 170px;
+    }
+}
+@keyframes right-icon{
+    from{
+    margin-right: 300%;
+    }
+    to{
+        margin-right: 70px;
+        margin-top: -10px;
+    }
+}
+@keyframes port-text{
+    from{
+    margin-right: 300%;
+    }
+    to{
+        margin-right: 0%;
+    }
+}
