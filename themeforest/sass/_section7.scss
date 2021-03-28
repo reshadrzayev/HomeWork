@@ -1,0 +1,36 @@
+.section7{
+    font-family: "Poppins", 'Segoe UI', 'Ubuntu','Droid Sans', sans-serif;
+    // background-image: url(../img/testimony.jpg);
+    background-position: center;
+    background-size: cover;
+    background: linear-gradient(to left, #c8b16f, #c7ab5a);
+    color: white;
+    .row{
+        .c1{
+            .div1{
+                margin-right: 20px;
+            }
+            .div2{
+                .p1{
+                    font-size: 17px;
+                    letter-spacing: 1px;
+                    line-height: 22px;
+                    font-weight: lighter;
+                }
+                .p2{
+                    letter-spacing: 1px;
+                    font-size: 15px;
+                }
+            }
+        }
+        @media screen and (max-width:768px) {
+            .c1{
+                border-bottom: 1px solid rgba(54, 54, 54, 0.1);
+                .div2{
+                    margin-bottom: 5rem;
+                }
+            }
+                        
+        }
+    }
+}

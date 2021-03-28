@@ -1,0 +1,69 @@
+.section5{
+    font-family: "Poppins", 'Segoe UI', 'Ubuntu','Droid Sans', sans-serif;
+    background-color: #111;
+    height: 500px;
+    color: white;
+    .rr1{
+        .cc1{
+            height: 500px;
+            // background-image: url(../img/mocks.png);
+            // background-repeat: no-repeat;
+            // background-size: cover;
+            // background-position: center;
+            img{
+                height: 500px;
+                width: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+    
+    
+        .cc2{
+            .r{
+                // width: 450px;
+                h4{
+                    font-size: 40px;
+                    font-weight: 700;
+                    letter-spacing: 1px;
+                }
+                .p1{
+                    line-height: 22px;
+                    font-weight: lighter;
+                    letter-spacing: 1px;
+                }
+                button{
+                    width: 170px;
+                    height: 50px;
+                    color: white;
+                    border: 2px solid #c8b16f;
+                    outline: none;
+                    letter-spacing: 1px;
+                    margin-top: 10px;
+                    transition: 0.5s;
+                }
+                button:hover{
+                    background-color: #c8b16f;
+                }
+            }
+        }
+    }
+    // @media screen and (max-width:768){
+    //     .rr1{
+    //         display: flex;
+    //         flex-direction: row;
+    //     }
+    // }
+}
+
+@media screen and (max-width: 767px){
+    .section5{
+        height: auto;
+    }
+    .cc2{
+        margin-top: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+    }
+}

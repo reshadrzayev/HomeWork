@@ -1,0 +1,70 @@
+.section3{
+    background: #111;
+    font-family: "Poppins", 'Segoe UI', 'Ubuntu','Droid Sans', sans-serif;
+    .first{
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        .col-md-4{
+            h3{
+                line-height: 60px;
+                color: white;
+                font-size: 45px;
+                text-align: left;
+                font-weight: 500;
+            }
+        }
+        .col-md-8{
+            p{
+                color: white;
+                font-size: 18px;
+                line-height: 22px;
+                font-weight: lighter;
+            }
+        }
+        
+    }
+    @media screen and (max-width: 768px) {
+        .first{
+            height: auto;
+        }
+        .cont{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+      }
+    .second{
+        height: auto;
+        padding-top: 100px;
+        .col-md-4{
+            height: auto;
+            padding-bottom: 50px;
+            color: white;
+            // .special1{
+            //     margin-left: 165px;
+            // }
+            h4{
+                font-size: 25px;
+                color: #c8b16f;
+                font-weight: 500;
+            }
+            h3{
+                font-size: 18px;
+
+            }
+            p{
+                line-height: 25px;
+                font-weight: lighter;
+                text-align: center;
+            }
+        }
+    }
+    .third{
+        padding-bottom: 100px;
+    }
+    @media screen and (max-width: 768px) {
+        .second{
+            height: auto;
+        } 
+      }
+}

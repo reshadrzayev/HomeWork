@@ -1,0 +1,107 @@
+.section8{
+    background: #0f0f0f;
+    font-family: "Poppins", 'Segoe UI', 'Ubuntu','Droid Sans', sans-serif;
+    color: white;
+    .r{
+        letter-spacing: 1px;
+        padding: 5rem;
+        .c1{
+            h2{
+                font-size: 35px;
+                font-weight: 700;
+            }
+            p{
+                font-size: 17px;
+                font-weight: 400;
+                line-height: 25px;
+            }
+            a{
+                text-decoration: none;
+                color: #c8b16f;
+                transition: 0.5s;
+            }
+            a:active{
+                color: #c8b16f;;
+            }
+            a:visited{
+                color: #c8b16f;
+            }
+            a:hover{
+                opacity: 0.7;
+            }
+        }
+        .c2, .c3{
+            h4{
+                font-size: 22px;
+                font-weight: 600;
+            }
+            a{
+                width: fit-content;
+                display: block;
+                font-size: 17px;
+                line-height: 35px;
+                border-bottom: 1px solid rgba(200, 177, 111, 0.8);
+                text-decoration: none;
+                transition: 0.5s;
+            }
+            a:active{
+                color: white;
+            }
+            a:visited{
+                color: white;
+            }
+            a:hover{
+                opacity: 0.6;
+            }
+            
+        }
+        .c4{
+            h4{
+                font-size: 22px;
+                font-weight: 600;
+            }
+            p{
+                font-size: 17px;
+                font-weight: 400;
+                line-height: 25px;
+
+            }
+            .buttons{
+                button{
+                    border: 1px solid rgba(200, 177, 111, 0.8) ;
+                    width: 50px;
+                    height: 50px;
+                    background-color: transparent;
+                    border-radius: 5px;
+                    outline: none;
+                    transition: 0.5s;
+                    i{
+                        color: white;
+                        font-size: 22px;
+                        transition: 0.5s;
+                    }
+                }
+                .btnn{
+                    margin-left: 10px;
+                }
+                button:hover{
+                    background-color: rgba(200, 177, 111, 0.8);
+                }
+                button:hover i{
+                    font-size: 28px;
+                }
+            }
+            @media screen and (max-width:423px) {
+                .buttons{
+                    button{
+                        margin-top: 10px;
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }   
+    .footer{
+        background: rgba(0, 0, 0, 0.6)
+    }    
+}

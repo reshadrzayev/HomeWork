@@ -1,0 +1,102 @@
+.section4{
+    right: -15px;
+    font-family: "Poppins", 'Segoe UI', 'Ubuntu','Droid Sans', sans-serif;
+    background-color: #0f0f0f;
+    color: white;
+    z-index: 11111111;
+    .first{
+        .col-md-6{
+            h3{
+                font-size: 35px;
+                font-weight: bolder;
+            }
+            .p2{
+                line-height: 25px;
+            }
+        }
+    }
+    .second{
+        padding-bottom: 100px;
+        height: auto;
+        .c1{
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0,0,0,0.3), rgba(2, 24, 53, 0.6)), url(../img/img1.jpg);
+        }
+        .c2{
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0,0,0,0.3), rgba(2, 24, 53, 0.6)),url(../img/img2.jpg);
+        }
+        .c3{
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0,0,0,0.3), rgba(2, 24, 53, 0.6)),url(../img/img3.jpg);
+        }
+        .col-lg-3{
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            height: 400px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            transition: 0.5s;
+            cursor: pointer;
+            .th{
+                color: white;
+                border-bottom-left-radius: 5px ;
+                border-bottom-right-radius: 5px ;
+                background-color: transparent;   
+                .div1{
+                    p{
+                        transition: 0.5s;
+                    }
+                    .p1{
+                        font-size: 25px;
+                    }
+                    .p2{
+                        margin-bottom: 15px;
+                    }
+                }
+                .sc{
+                    z-index: 0;
+                    overflow: hidden;
+                    right: -25px;
+                    bottom: 20px;
+                    transition: 0.8s;
+                    i{
+                        margin: 5px;
+                        font-size: 22px;
+                        transition: 0.5s;
+                        
+                    }
+                    i:hover{
+                        font-size: 28px;
+                    }
+                      
+                   
+                }
+            }
+            
+        }
+        .col-lg-3:hover i{
+            transform: translateY(15px);
+        }   
+        .col-lg-3:hover .p1{
+            font-size: 33px;
+        } 
+        .col-lg-3:hover .p2{
+            font-size: 20px;
+        } 
+        
+        
+         
+    }
+    @media screen and (max-width: 992px)
+    {
+        .second{
+            height: auto;
+            padding-bottom: 50px;
+            .col-lg-3{
+                margin-bottom: 50px;
+            }
+        }
+        
+    }
+}
