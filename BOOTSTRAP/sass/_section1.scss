@@ -51,11 +51,12 @@
                 align-items: flex-end;
                 
                 .card{
+                    cursor: pointer;
                     margin-right: -150px;
                     border-radius: 15px;
                     width: 400px;
                     height: 170px;
-                     border-left-style:solid;
+                    border-left-style:solid;
                     border-left-width: 5px;
                     border-left-color:#a3bffa;
                     transition: 0.3s;

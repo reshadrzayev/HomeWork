@@ -248,6 +248,7 @@ nav .navbar .buttons a:hover {
 }
 
 .first .container-fluid .right .card {
+  cursor: pointer;
   margin-right: -150px;
   border-radius: 15px;
   width: 400px;
