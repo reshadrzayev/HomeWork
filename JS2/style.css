@@ -1,0 +1,47 @@
+div{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+p{
+    display: none;
+    font-size: 25px;
+    letter-spacing: 1px;
+    animation-name: text;
+    animation-duration: 2s;
+}
+input{
+    width: 40px;
+    height: 22px;
+    margin: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+    outline: none;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    outline: none;
+    background-color: gray;
+    transition: 0.5s;
+    font-size: 16px;
+}
+button:hover{
+    background-color: rgb(255, 115, 0);
+}
+@keyframes text{
+    from{margin-left: 500px;}
+    to{margin-left: 0px;}
+}
