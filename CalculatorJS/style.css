@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.calculator{
+    border: 2px solid black;
+    padding: 10px;
+    width: fit-content;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#resultid{
+    width: 50px;
+    height: 86px;
+    text-align: center;
+    outline: none;
+    /* font-size: 22px; */
+
+}
+.calculator .inputdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.calculator .button-r1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#fnumid,#snumid{
+    /* font-size: 22px; */
+    width: 145px;
+    height: 40px;
+    text-align: center;
+}
+.calculator .button-r2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 53px;
+    height: 60px;
+    font-size: 30px;
+    background-color: rgb(157, 224, 224);
+    border: 1px solid;
+    transition: 0.2s;
+    outline: none;
+}
+button:hover{
+    background-color:ghostwhite;
+}
