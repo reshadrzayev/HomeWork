@@ -54,7 +54,7 @@ function myFunc(){
         document.getElementById('txtgunorta').style.display="none";
 
 
-        document.getElementById("div").style.backgroundColor="black";
+        document.getElementById("div").style.backgroundImage="url('night.jpg')";
 
     }
     else{
