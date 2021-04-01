@@ -15,6 +15,7 @@ p{
     letter-spacing: 1px;
     animation-name: text;
     animation-duration: 2s;
+    color: white;
 }
 input{
     width: 40px;
