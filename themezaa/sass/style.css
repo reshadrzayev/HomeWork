@@ -817,4 +817,10 @@ nav .collapse .dropdown-menu .dp .col-md-3 a:hover {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+@media screen and (max-width: 991px) {
+  .section7 .mainrow .img {
+    height: 500px;
+  }
+}
 /*# sourceMappingURL=style.css.map */

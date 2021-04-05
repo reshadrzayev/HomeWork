@@ -69,5 +69,13 @@
             background-repeat: no-repeat;
             background-position: center;
         }
+       
+    }
+    @media screen and (max-width:991px) {
+        .mainrow{
+            .img{
+                height: 500px;
+            }
+        }
     }
 }
