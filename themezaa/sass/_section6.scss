@@ -1,0 +1,52 @@
+.section6{
+    .row{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        .col-md-5{
+            h2{
+                padding-bottom: 15px;
+                font-size: 32px;
+                letter-spacing: 1px;
+                line-height: 40px;
+                font-weight: 600;
+            }
+            p{
+                padding-bottom: 10px;
+                font-size: 14px;
+                line-height: 20px;
+                color: #6f6f6f;
+                border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            }
+            button{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 200px;
+                height: 40px;
+                font-size: 13px;
+                i{
+                    font-size: 15px;
+                    padding-right: 8px;
+                }
+            }
+            button:hover{
+                background-color: transparent;
+                color: black;
+            }
+        }
+        .col-md-7{
+            background-image: url(../img/explore-work-02.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        @media screen and (max-width: 768px) {
+            .col-md-7{
+                display: flex;
+                justify-content: center;
+                align-items: center ;
+                height: 400px;
+            }
+        }
+    }
+}

@@ -1,0 +1,90 @@
+body{
+    font-family: sans-serif;
+    margin-top: 56px;
+    overflow-x: hidden;
+}
+nav{
+    transition: top 0.3s;
+    letter-spacing: 1px;
+    background-color: black;
+    .navbar-brand{
+        margin-left: 200px;
+    }
+    
+    .collapse{
+        margin-right: 100px;
+        ul{
+            li{
+                margin-right: 15px;
+                .nav-link{
+                    transition: 0.3s;
+                }
+                .nav-link:hover{
+                    opacity: 0.4;
+                }
+            }
+        }
+        .dropdown-menu{
+            left: 10%;
+            height: auto;
+            background-color: rgba(35,35,35,1);
+            .dp{
+                .col-md-3{
+                    padding: 4rem;
+                    border-right: 1px solid gray;
+                    h2{
+                        line-height: 35px;
+                        color: white;
+                        font-size: 15px;
+                    }
+                    h2:hover{
+                        background-color:rgba(35,35,35,1) ;
+                    }
+                    a{
+                        font-size: 13px;
+                        line-height: 25px;
+                        color: gray;
+                        transition: 0.5s;
+                    }
+                    a:hover{
+                        color: white;
+                        background-color:rgba(35,35,35,1) ;
+                        transform: translateX(5px);
+                    }
+                }
+            }
+            
+        }
+        @media screen and (max-width:991px) {
+            .dropdown-menu{
+                .dp{
+                    .col-md-3{
+                       padding: 0rem;
+                       border-style: none;
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 1225px) {
+        .navbar-brand{
+            margin:0;
+        }
+        .navbar-nav{
+            margin:0;
+        }
+        .collapse{
+            margin: 0;
+        }
+        .xet{
+            display: none;
+        }
+    }
+   
+   
+}
+@media screen and (max-width:992px) {
+    nav{
+        background-color: black;
+    }
+}

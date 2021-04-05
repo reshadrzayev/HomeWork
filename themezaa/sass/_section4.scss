@@ -1,0 +1,63 @@
+.section4{
+    .mainrow{
+        .imagecol1{
+            background-image: url(../img/japon.jpg);
+            background-size: cover;
+            background-position: center;    
+        }
+        .imagecol2{
+            background-image: url(../img/japon-man.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        @media screen and (max-width:992px) {
+            .img{
+                height: 500px;
+                background-size:cover;
+                background-position:top;
+            }
+            .imagecol2{
+                background-position:center;
+
+            }
+        }
+        .txt{
+            background-color: #1c1c1c;
+            .p1{
+                color: #6f6f6f;
+                letter-spacing: 1px;
+
+            }
+            h2{
+                font-size: 20px;
+                color: white;
+                letter-spacing: 1px;
+                line-height: 27px;
+            }
+            .p2{
+                color: #6f6f6f;
+                font-size: 13px;
+                letter-spacing: 1px;
+                line-height: 20px;
+            }
+            button{
+                width: 150px;
+                height: 40px;
+                font-size: 13px;
+                i{
+                    font-size: 15px;
+                    padding-right: 8px;
+                }
+            }
+        }
+        @media screen and (max-width:992px) {
+            .txt{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+        }
+    }
+}

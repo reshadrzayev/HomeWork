@@ -1,0 +1,46 @@
+#carouselExampleCaptions{
+    letter-spacing: 1px;
+    background-color: rgba(0,0,0,0.5);
+    
+    .carousel-inner{
+        .carousel-item{
+            img{
+                filter:brightness(50%);
+            }
+        }
+        .carousel-caption{
+            top: 40%;
+            left: 15%;
+            h5{
+                letter-spacing: 2px;
+                font-weight: 600;
+            }
+            button{
+                font-size: 12px;
+            }
+        }
+    }
+    .carousel-control-next, .carousel-control-prev{
+        #pp, #nn{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 11111;
+            // background-image: url(../img/homepage-3-slider-img-1.jpg);
+            // width: 60px;
+            // height: 60px;
+            // border-radius: 50px;
+            img{
+                z-index: 1;
+                width: 70px;
+                height: 70px;
+                border-radius: 50px;
+                display: none;
+                object-fit:fill;
+                object-position: center;
+                transition: 0.5s;
+            }
+        }
+       
+    }
+}
