@@ -1,0 +1,73 @@
+.section7{
+    background-color: #f7f7f7;
+    .mainrow{
+        .r1{
+            padding: 67px;
+            h2{
+                font-size: 40px;
+                letter-spacing: 1px;
+                line-height: 45px;
+                font-weight: 600;
+            }
+        }
+        .r2{
+            padding-left: 55px;
+            display: flex;
+            flex-direction: row;
+            .col-md-6{
+                // margin-left: 55px;
+                h3{
+                    font-size: 14px;
+                    font-weight: 600;
+                    letter-spacing: 1px;
+                }
+                .logo{
+                    display: flex;
+                    justify-content: center;
+                    padding-right: 30px;
+                    i{
+                        font-size: 35px;
+                        color: #9c9c9c;
+                    }
+                }
+                .text{ 
+                    p{
+                        font-weight: lighter;
+                        font-size: 14px;
+                        color: #6f6f6f;
+                        letter-spacing: 1px;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+        .row2{
+            padding-bottom: 67px;
+        }
+        @media screen and (max-width:768px) {
+            .r1{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                // text-align: center;
+            }
+            .r2{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 0;
+                .col-md-6{
+                    justify-content: center;
+                    align-items: center;
+                    padding-bottom: 40px;
+                }
+            }
+        }
+        .img{
+            background-image: url(../img/services-classic-07.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+}

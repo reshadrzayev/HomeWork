@@ -716,4 +716,105 @@ nav .collapse .dropdown-menu .dp .col-md-3 a:hover {
     height: 400px;
   }
 }
+
+.section7 {
+  background-color: #f7f7f7;
+}
+
+.section7 .mainrow .r1 {
+  padding: 67px;
+}
+
+.section7 .mainrow .r1 h2 {
+  font-size: 40px;
+  letter-spacing: 1px;
+  line-height: 45px;
+  font-weight: 600;
+}
+
+.section7 .mainrow .r2 {
+  padding-left: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.section7 .mainrow .r2 .col-md-6 h3 {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.section7 .mainrow .r2 .col-md-6 .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-right: 30px;
+}
+
+.section7 .mainrow .r2 .col-md-6 .logo i {
+  font-size: 35px;
+  color: #9c9c9c;
+}
+
+.section7 .mainrow .r2 .col-md-6 .text p {
+  font-weight: lighter;
+  font-size: 14px;
+  color: #6f6f6f;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+
+.section7 .mainrow .row2 {
+  padding-bottom: 67px;
+}
+
+@media screen and (max-width: 768px) {
+  .section7 .mainrow .r1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .section7 .mainrow .r2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0;
+  }
+  .section7 .mainrow .r2 .col-md-6 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 40px;
+  }
+}
+
+.section7 .mainrow .img {
+  background-image: url(../img/services-classic-07.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 /*# sourceMappingURL=style.css.map */
