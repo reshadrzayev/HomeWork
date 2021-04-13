@@ -1,12 +1,41 @@
+body{
+    font-family: sans-serif;
+}
+.nav{
+    background-color: rgb(19, 163, 163);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav p{
+    font-size: 32px;
+    font-weight: 700;
+    
+}
 .container{
+    height: 500px;
     background-color: rgb(173, 173, 173);
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .texmin{
     font-size: 32px;
 }
 .row input{
     margin-left: 15px;
+}
+.row button{
+    margin-left: 20px;
+}
+.caption{
+    margin-top: 50px;
+    font-size: 32px;
+}
+#xal{
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 50px;
 }
