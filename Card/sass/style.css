@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+}
+
+.container .maincol {
+  background-color: #3a3a41;
+}
+
+.container .maincol .card1 .c1 {
+  background-color: #2b2b30;
+  color: white;
+  border-radius: 5px;
+}
+
+.container .maincol .card1 .c1:hover {
+  background-color: #ca4444;
+}
+
+.container .content {
+  background-color: #2b2b30;
+}
+
+.container .content .r1 .c2 {
+  color: white;
+  background-color: #ca4444;
+  border-radius: 5px;
+}
+
+.container .content .r2 .cc h2 {
+  color: #ca4444;
+}
+
+.container .content .r2 .cc p {
+  color: white;
+  border-bottom: 1px solid black;
+  line-height: 25px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,48 @@
+body{
+    font-family: sans-serif;
+}
+.container{
+    // background-color: rgb(43, 43, 48);
+    .maincol{
+        background-color: rgb(58, 58, 65);
+        .card1{
+            .c1{
+                background-color: rgb(43, 43, 48);
+                color: white;
+                border-radius: 5px;
+             }
+             .c1:hover{
+                 background-color: rgb(202, 68, 68);
+             }
+             
+             
+        }
+    }
+    .content{
+        background-color: rgb(43, 43, 48);
+        .r1{
+            .c2{
+                color: white;
+                background-color: rgb(202, 68, 68);
+                border-radius: 5px;
+                .row{
+                    .kod{
+                        
+                    }
+                }
+            }
+        }
+        .r2{
+            .cc{    
+                h2{
+                    color: rgb(202, 68, 68);
+                }
+                p{
+                    color: white;
+                    border-bottom: 1px solid black;
+                    line-height: 25px;
+                }
+            }
+        }
+    }
+}
