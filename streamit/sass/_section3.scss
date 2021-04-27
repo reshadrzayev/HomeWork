@@ -1,0 +1,80 @@
+.section3{
+    
+    .owl-nav{
+            
+        .owl-next{
+            position: absolute;
+            right: 0;
+            top: 25%;
+            span{   
+                color: white;
+                background-color: black;
+                opacity: 0.5;
+            font-size: 65px;
+            }
+        }
+        .owl-prev{
+            position: absolute;
+            left: 0;
+            top: 25%;
+            span{
+                color: white;
+                background-color: black;
+                opacity: 0.5;
+                font-size: 65px;
+            }
+            
+        } 
+    }
+    .owl-carousel{    
+        .item{
+            transition: 0.5s;
+            img{
+                position: relative;
+                filter: brightness(70%);
+                transition: 0.5s;
+            }
+            .content{
+                display: flex;
+                flex-direction: row;
+                color: white;
+
+                // position: absolute;
+                // top: 0;
+                // width: 100%;
+                .left{
+                    display: flex;
+                    flex-direction: column;
+                    // justify-content: flex-start;
+                    position: absolute;
+                    top: 25%;
+                    left: 10%;
+                    
+                }
+                .right{
+                    
+                    display: none;
+                    flex-direction: column;
+                    position: absolute;
+                    top: 25%;
+                    right: 10%;
+                   button{
+                       width: 30px;
+                       height: 30px;
+                   }
+                }
+            }
+        }
+        .item:hover img{
+            filter: brightness(30%);
+        }
+        .item:hover{
+            // transform: perspective(800px) translate3d(0, 0, 20px);
+            border-left-color: red;
+            border-left-width: 5px;
+            border-left-style: solid;
+            
+        }
+        
+    }
+ }
