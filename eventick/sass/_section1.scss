@@ -25,6 +25,11 @@
             font-size: 40px;
         }
     }
+    @media screen and (max-width:295px) {
+        .row2{
+            font-size: 35px;
+        }
+    }
     .row3{
         padding-top: 15px;
         font-size: 17px;

@@ -1,0 +1,118 @@
+.section3{
+    background: #f6f6f6;
+    .row1{
+        padding-top: 80px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        font-size: 30px;
+    }
+    .line{
+        display: block;
+        text-align: center;
+        margin: 3px auto 5px;
+        height: 1px;
+        background-color: #dbdbdb;
+    }
+    .line1{
+        width: 200px;
+    }
+    .line2{
+        width: 150px;
+    }
+    .line3{
+        width: 100px;
+    }
+    .row2{
+        text-align: center;
+        font-size: 14px;
+        p{
+            letter-spacing: 1px;
+            line-height: 24px;
+            color: #646a7c;
+        }
+    }
+    .row3{
+        button{
+            border: 1px solid #ddd;
+            background-color: transparent;
+            width: 175px;
+            height: 50px;
+            margin: 15px;
+            transition: .3s;
+        }
+        button:hover{
+            border-color: #e71c37;
+        }
+        button:focus{
+            background-color: #e71c37;
+            color: white;
+        }
+    }
+    .row4{
+        padding-bottom: 50px;
+        .spkr{
+            background-color: #fff;
+            .image{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                img{
+                  width: 80%;  
+                  
+                  border-radius: 7px;
+                }
+            }
+        }
+        
+        .spkr2,.spkr3,.spkr4{
+            display: none;
+        }
+
+        .about{
+            .p1{
+                font-size: 14px;
+                color: #646a7c;
+                i{
+                    padding-right: 5px; 
+                    color: #e71c37;
+                }
+            }
+            .p2{
+                font-size: 18px;
+                font-weight: bolder;
+            }
+            .p3{
+                letter-spacing: 1px;
+                line-height: 20px;
+                font-size: 14px;
+                color: #646a7c;
+            }
+            .p4{
+                font-size: 14px;
+                color: #e71c37;
+                font-weight: bold;
+            }
+        }
+        .buttons{
+            button{
+                font-size: 14px;
+                letter-spacing: 1px;
+                font-weight: bolder;
+                width: 155px;
+                height: 44px;
+                margin: 5px 0px;
+                border-style: none;
+                background-color: black;
+                color: white;
+                border-radius: 3px;
+                transition: .5s;
+            }
+            button:hover{
+                background-color: #e71c37;
+                color: white;
+            }
+        }
+    }
+
+}

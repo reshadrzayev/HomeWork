@@ -1,0 +1,32 @@
+$(function(){
+    $("#btn1").click(function(){
+        $(".spkr1").css("display","flex");
+        $(".spkr2").css("display","none");
+        $(".spkr3").css("display","none");
+        $(".spkr4").css("display","none");
+    });
+});
+$(function(){
+    $("#btn2").click(function(){
+        $(".spkr2").css("display","flex");
+        $(".spkr1").css("display","none");
+        $(".spkr3").css("display","none");
+        $(".spkr4").css("display","none");
+    });
+});
+$(function(){
+    $("#btn3").click(function(){
+        $(".spkr3").css("display","flex");
+        $(".spkr1").css("display","none");
+        $(".spkr2").css("display","none");
+        $(".spkr4").css("display","none");
+    });
+});
+$(function(){
+    $("#btn4").click(function(){
+        $(".spkr4").css("display","flex");
+        $(".spkr1").css("display","none");
+        $(".spkr2").css("display","none");
+        $(".spkr3").css("display","none");
+    });
+});
