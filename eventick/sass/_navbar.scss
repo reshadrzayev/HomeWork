@@ -1,0 +1,30 @@
+nav{
+    background-color: black;
+    font-weight: bolder;
+    .collapse{
+        .navbar-nav{
+            .nav-link{
+                opacity: 0.8;
+                transition: 0.3s;
+            }
+            .nav-link:hover{
+                opacity: 1;
+            }
+            .get{
+                opacity: 0.5;
+            }
+            .get:hover{
+                opacity: 1;
+            }
+            .dropdown-menu{
+                background-color: black;
+                .dropdown-item{
+                    color: white;
+                }
+                .dropdown-item:hover{
+                    background-color: black;
+                }
+            }
+        }
+    }
+}

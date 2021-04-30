@@ -1,0 +1,178 @@
+.section2{
+    height: 800px;
+    .row1{
+        padding-top: 80px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        font-size: 30px;
+    }
+    .line{
+        display: block;
+        text-align: center;
+        margin: 3px auto 5px;
+        height: 1px;
+        background-color: #dbdbdb;
+    }
+    .line1{
+        width: 200px;
+    }
+    .line2{
+        width: 150px;
+    }
+    .line3{
+        width: 100px;
+    }
+    .row2{
+        text-align: center;
+        font-size: 14px;
+        p{
+            letter-spacing: 1px;
+            line-height: 24px;
+            color: #646a7c;
+        }
+    }
+    .row3{
+        .col-lg-2{
+            .image{
+                width: 100%;
+                position: relative;
+                overflow: hidden;
+                img{
+                    width: 100%;
+                    object-fit: contain;
+                    object-position: center;
+                }
+                .col-12{
+                    align-items: center;
+                    border-top: 4px solid #e71c37;;
+                    transition: 1s;
+                    background: rgba(0, 0, 0, 0.8);
+                    height: 100%;
+                    position: absolute;
+                    top: 99%;
+                    left: 0;
+                    right: 0;
+                    .content{
+                        
+                        .row1{
+                            padding-bottom: 20px;
+                            button{
+                                color: #e71c37;
+                                outline: none;
+                                background-color: transparent;
+                                border: 1px solid #e71c37;
+                                font-size: 17px;
+                                margin: 5px;
+                                width: 40px;
+                                height: 40px;
+                                border-radius: 50%;
+                                transition: .5s;
+                            }
+                            button:hover{
+                                background-color: #e71c37;
+                                color: white;
+                            }
+                            @media screen and (max-width:1200px) {
+                                button{
+                                    width: 30px;
+                                    height: 30px;
+                                    font-size: 15px;
+                                }
+                            }
+                            @media screen and (max-width:992px) {
+                                button{
+                                    width: 40px;
+                                    height: 40px;
+                                    font-size: 17px;
+                                }
+                            }
+                        }
+                        @media screen and (max-width:1481px) {
+                            .row1{
+                                padding: 0;
+                            }
+                        }
+                        @media screen and (max-width:992px) {
+                            .row1{
+                                padding-bottom: 20px;
+                                padding-top: 80px;
+                            }
+                        }
+                        .row2{
+                            padding-top: 20px;
+                            color: white;
+                            p{
+                                padding: 0px 10px ;
+                            }
+                            @media screen and (max-width:1200px) {
+                                p{
+                                    padding: 0px;
+                                    font-size: 13px;
+                                }
+                            }
+                            @media screen and (max-width:992px) {
+                                p{
+                                    padding: 0px 10px;
+                                    font-size: 17px;
+                                }
+                            }
+                        }
+                        @media screen and (max-width:1090px) {
+                            .row2{
+                                padding-top: 0;
+                            }
+                        }
+                        @media screen and (max-width:992px) {
+                            .row2{
+                                padding-top: 20px;
+                            }
+                        }
+                        .row3{
+                            padding-top: 20px;
+                            a{
+                                letter-spacing: 1px;
+                                text-decoration: none;
+                                font-weight: bold;
+                                color: white;
+                                transition: .5s;
+                            }
+                            a:active{
+                                color: white;
+                            }
+                            a:visited{
+                                color: white;
+                            }
+                            a:hover{
+                                color: #e71c37;
+                            }
+                            @media screen and (max-width:1200px) {
+                                a{
+                                    font-size: 13px;
+                                }
+                            }
+                            @media screen and (max-width:992px) {
+                                a{
+                                    font: size 17px
+                                }
+                            }
+                            
+                        }
+                        @media screen and (max-width:1090px) {
+                            .row3{
+                                padding-top: 0px;
+                            }
+                        }
+                        @media screen and (max-width:992px) {
+                            .row3{
+                                padding-top: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+            .image:hover .col-12{
+                top: 0%;
+            }
+        }
+    }
+}
