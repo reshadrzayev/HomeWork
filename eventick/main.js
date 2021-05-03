@@ -66,4 +66,12 @@ $('.owl-carousel').owlCarousel({
 })
 
 
+$(function(){
+  $(".num").counterUp({
+      delay: 5,
+      time: 500
+  })
+});
+
+
 

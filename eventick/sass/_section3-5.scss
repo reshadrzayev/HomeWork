@@ -1,0 +1,29 @@
+.section3-5{
+    .rowmain{
+        padding: 100px 0;
+        background-image: url(../img/funfact.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        .counter{
+            background-color: white;
+            padding: 30px 0;
+            margin: 0 10px;
+            .logo{
+                font-size: 25px;
+                color: #e71c37;
+            }
+            .num{
+                font-size: 30px;
+                font-weight: bold;
+            }
+            .desc{
+                color: #e71c37;
+                font-weight: lighter;
+            }
+        }
+        @media screen and (max-width:) {
+            
+        }
+    }
+}

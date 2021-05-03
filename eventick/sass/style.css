@@ -565,6 +565,35 @@ nav .collapse .navbar-nav .dropdown:hover .dropdown-menu {
   color: white;
 }
 
+.section3-5 .rowmain {
+  padding: 100px 0;
+  background-image: url(../img/funfact.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.section3-5 .rowmain .counter {
+  background-color: white;
+  padding: 30px 0;
+  margin: 0 10px;
+}
+
+.section3-5 .rowmain .counter .logo {
+  font-size: 25px;
+  color: #e71c37;
+}
+
+.section3-5 .rowmain .counter .num {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.section3-5 .rowmain .counter .desc {
+  color: #e71c37;
+  font-weight: lighter;
+}
+
 .section4 .row-main .col1 {
   padding-top: 200px;
   padding-bottom: 200px;
