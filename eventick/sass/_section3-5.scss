@@ -22,6 +22,10 @@
                 font-weight: lighter;
             }
         }
-        
+        @media screen and (max-width: 768px) {
+            .counter{
+                margin: 10px 40px;
+            }
+        }
     }
 }

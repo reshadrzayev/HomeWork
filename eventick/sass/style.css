@@ -594,6 +594,12 @@ nav .collapse .navbar-nav .dropdown:hover .dropdown-menu {
   font-weight: lighter;
 }
 
+@media screen and (max-width: 768px) {
+  .section3-5 .rowmain .counter {
+    margin: 10px 40px;
+  }
+}
+
 .section4 .row-main .col1 {
   padding-top: 200px;
   padding-bottom: 200px;
