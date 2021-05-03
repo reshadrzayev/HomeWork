@@ -59,14 +59,30 @@ nav {
   font-weight: bolder;
 }
 
-nav .collapse .navbar-nav .nav-link {
+nav .collapse {
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+nav .collapse .navbar-nav .nav-item {
+  padding: 0px 5px;
+}
+
+nav .collapse .navbar-nav .nav-item .nav-link {
   opacity: 0.8;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-nav .collapse .navbar-nav .nav-link:hover {
+nav .collapse .navbar-nav .nav-item .nav-link:hover {
   opacity: 1;
+}
+
+@media screen and (max-width: 1115px) {
+  nav .collapse .navbar-nav .nav-item {
+    padding: 0;
+    letter-spacing: 0px;
+  }
 }
 
 nav .collapse .navbar-nav .get {
@@ -87,6 +103,11 @@ nav .collapse .navbar-nav .dropdown-menu .dropdown-item {
 
 nav .collapse .navbar-nav .dropdown-menu .dropdown-item:hover {
   background-color: black;
+}
+
+nav .collapse .navbar-nav .dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0px;
 }
 
 .section1 {
