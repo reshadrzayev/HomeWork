@@ -701,15 +701,12 @@ nav .collapse .navbar-nav .dropdown-menu .dropdown-item:hover {
   letter-spacing: 1px;
 }
 
-.section5 .rowmain {
-  margin: 15px 0;
-}
-
 .section5 .rowmain .c {
   margin: 0 10px;
 }
 
 .section5 .rowmain .c .image {
+  margin: 10px 0;
   height: 250px;
   background-position: center;
   background-size: cover;
