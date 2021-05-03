@@ -1,0 +1,106 @@
+.section4{
+    .row-main{
+        .col1{
+            padding-top: 200px;
+            padding-bottom: 200px; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(../img/gallery2.jpg);
+            background-size: cover;
+            
+            button{
+                width: 80px;
+                height: 80px;
+                border-style: none;
+                border-radius: 50%;
+                color: #e71c37; 
+                font-size: 25px;
+                i{
+                    transition: 0.5s;
+                }
+            }
+            button:hover i{
+                color: gray;
+            }
+        }
+        .col2{
+            .rowhead{
+                .header{
+                    font-size: 30px;
+                    color: #e71c37;
+                    font-weight: bold;
+                }
+                .linerow{
+                    .line{
+                        display: block;
+                        text-align: center;
+                        margin: 3px auto 5px;
+                        height: 1px;
+                        background-color: #dbdbdb;
+                    }
+                    .line1{
+                        width: 200px;
+                    }
+                    .line2{
+                        width: 150px;
+                    }
+                    .line3{
+                        width: 100px;
+                    }
+                }
+            }
+            @media screen and (max-width:768px) {
+                .rowhead{
+                    padding-top: 50px;
+                }
+            }
+            .rowtoggle{
+                .r{
+                    margin: 5px 0;
+                    text-align: left;
+                    padding: 20px 0;
+                    background-color: #f6f6f6;
+                    flex-direction: column;
+                    width: 100%;
+                    button{
+                        display: flex;
+                        flex-direction: row;
+                        font-weight: bold;
+                        text-align: left;
+                        background-color: transparent;
+                        border-style: none;
+                        outline: none;
+                        font-size: 17px;
+                        letter-spacing: 1px;
+                        p{
+                            padding: 0 5px;
+                        }
+                        span{
+                            padding: 0 5px;
+                            color: #e71c37;
+                            background-color: white;
+                        }
+                    }
+                }
+                .content{
+                    z-index: 111;
+                    padding: 20px 0;
+                    width: 100%;
+                    padding-left: 20px;
+                    display: none;
+                    p{
+                        letter-spacing: 1px;
+                        color: #646a7c;
+                        line-height: 24px;
+                    }
+                }
+            }
+            @media screen and (max-width:768px) {
+                .rowtoggle{
+                    padding-bottom: 50px;
+                }
+            }
+        }
+    }
+}

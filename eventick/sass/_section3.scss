@@ -39,6 +39,10 @@
             height: 50px;
             margin: 15px;
             transition: .3s;
+            p{
+                font-size: 14px;
+                letter-spacing: 1px;
+            }
         }
         button:hover{
             border-color: #e71c37;

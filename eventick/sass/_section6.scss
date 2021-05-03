@@ -1,0 +1,40 @@
+.section6{
+    .linerow{
+        .line{
+            display: block;
+            text-align: center;
+            margin: 3px auto 5px;
+            height: 1px;
+            background-color: #dbdbdb;
+        }
+        .line1{
+            width: 200px;
+        }
+        .line2{
+            width: 150px;
+        }
+        .line3{
+            width: 100px;
+        }
+    }
+    .rowtext{
+        font-size: 14px;
+        line-height: 24px;
+        color: #646a7c;
+        letter-spacing: 1px;
+    }
+
+    .item{
+        border: 1px solid #eee;
+        img{
+            object-fit: contain;
+            object-position: center;
+        }
+    }
+    .header{
+        font-size: 30px;
+        color: #e71c37;
+        font-weight: bold;
+    }
+    
+}
