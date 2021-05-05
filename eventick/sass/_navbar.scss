@@ -1,4 +1,6 @@
 nav{
+    transform: translateY(0px);
+    transition: transform 0.5s;
     background-color: black;
     font-weight: bolder;
     .collapse{
@@ -43,5 +45,8 @@ nav{
              }
         }
     }
+}
+.hide{
+    transform: translateY(-80px);
 }
 

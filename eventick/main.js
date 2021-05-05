@@ -69,7 +69,7 @@ $('.owl-carousel').owlCarousel({
 window.addEventListener('scroll',function(){
     let content = document.querySelector(".counter");
     let contentPos = content.getBoundingClientRect().top;
-    let screenPos = window.innerHeight
+    let screenPos = window.innerHeight;
     if(contentPos < screenPos){
         $('.num').each(function() {
             var $this = $(this),
@@ -97,7 +97,7 @@ window.addEventListener('scroll',function(){
     let sec2con = document.querySelector(".rowscroll1-2");
     let sec2headPos = sec2head.getBoundingClientRect().top;
     let sec2conPos = sec2con.getBoundingClientRect().top;
-    let screenPos = window.innerHeight
+    let screenPos = window.innerHeight;
     if(sec2headPos < screenPos){
         sec2head.classList.add("animatetoright");
     }
@@ -118,7 +118,7 @@ window.addEventListener('scroll',function(){
     let sec3con = document.querySelector(".rowscroll2-2");
     let sec3headPos = sec3head.getBoundingClientRect().top;
     let sec3conPos = sec3con.getBoundingClientRect().top;
-    let screenPos = window.innerHeight
+    let screenPos = window.innerHeight;
     if(sec3headPos < screenPos){
         sec3head.classList.add("animatetoright");
     }
@@ -140,7 +140,7 @@ window.addEventListener('scroll',function(){
     let button2 = document.querySelector("#button2");
     let button3 = document.querySelector("#button3");
     let btnpos = row.getBoundingClientRect().top;
-    let screenPos = window.innerHeight
+    let screenPos = window.innerHeight;
     if(btnpos < screenPos){
         button1.classList.add("animate");
         button2.classList.add("animate");
@@ -152,6 +152,27 @@ window.addEventListener('scroll',function(){
         button3.classList.remove("animate");
     }
 });
+
+
+window.addEventListener('scroll',function(){
+    let nav = document.querySelector("nav")
+    let row1 = document.querySelector(".rowscroll1");
+    let row2 =document.querySelector(".counter");
+    let rowpos1 = row1.getBoundingClientRect().top;
+    let rowpos2 = row2.getBoundingClientRect().top;
+    let screenPos = window.innerHeight;
+    if(rowpos1 < screenPos){
+        nav.classList.add("hide");
+    }
+    else{
+        nav.classList.remove("hide");
+    }
+
+    if(rowpos2 < screenPos){
+        nav.classList.remove("hide");
+    }
+});
+
 
 
 
