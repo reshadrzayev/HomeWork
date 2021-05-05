@@ -10,6 +10,7 @@
             background-size: cover;
             
             button{
+                display: block;
                 width: 80px;
                 height: 80px;
                 border-style: none;
@@ -22,7 +23,7 @@
             }
             button:hover i{
                 color: gray;
-            }
+            }            
         }
         .col2{
             .rowhead{
@@ -63,7 +64,7 @@
                     background-color: #f6f6f6;
                     flex-direction: column;
                     width: 100%;
-                    button{
+                    .btnscroll1{
                         display: flex;
                         flex-direction: row;
                         font-weight: bold;
@@ -73,6 +74,9 @@
                         outline: none;
                         font-size: 17px;
                         letter-spacing: 1px;
+                        transform: scale(0.1);
+                        opacity: 0;
+                        transition: 1.5s;
                         p{
                             padding: 0 5px;
                         }
@@ -81,6 +85,10 @@
                             color: #e71c37;
                             background-color: white;
                         }
+                    }
+                    .animate{
+                        transform: scale(1);
+                        opacity: 1;
                     }
                 }
                 .content{

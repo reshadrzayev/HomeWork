@@ -124,6 +124,17 @@ nav .collapse .navbar-nav .dropdown:hover .dropdown-menu {
   letter-spacing: 2px;
 }
 
+.section1 .row1 i {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 386px) {
+  .section1 .row1 i {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+}
+
 @media screen and (max-width: 573px) {
   .section1 .row1 {
     font-size: 20px;
@@ -207,11 +218,22 @@ nav .collapse .navbar-nav .dropdown:hover .dropdown-menu {
   color: white;
 }
 
-.section2 .row1 {
+.section2 .rowscroll1 {
   padding-top: 80px;
   font-weight: bold;
   letter-spacing: 2px;
   font-size: 30px;
+  -webkit-transform: scale(0.1);
+          transform: scale(0.1);
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+  opacity: 0;
+}
+
+.section2 .animatetoright {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .section2 .line {
@@ -234,15 +256,26 @@ nav .collapse .navbar-nav .dropdown:hover .dropdown-menu {
   width: 100px;
 }
 
-.section2 .row2 {
+.section2 .rowscroll1-2 {
+  -webkit-transform: scale(0.1);
+          transform: scale(0.1);
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+  opacity: 0;
+}
+
+.section2 .rowscroll1-2 p {
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: #646a7c;
   text-align: center;
   font-size: 14px;
 }
 
-.section2 .row2 p {
-  letter-spacing: 1px;
-  line-height: 24px;
-  color: #646a7c;
+.section2 .animatetoleft {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .section2 .row3 .col-lg-2 {
@@ -279,6 +312,7 @@ nav .collapse .navbar-nav .dropdown:hover .dropdown-menu {
 }
 
 .section2 .row3 .col-lg-2 .image .col-12 .content .row1 {
+  margin-top: 40px;
   padding-bottom: 20px;
 }
 
@@ -330,12 +364,19 @@ nav .collapse .navbar-nav .dropdown:hover .dropdown-menu {
   }
 }
 
+@media screen and (max-width: 350px) {
+  .section2 .row3 .col-lg-2 .image .col-12 .content .row1 {
+    margin-top: 0px;
+  }
+}
+
 .section2 .row3 .col-lg-2 .image .col-12 .content .row2 {
   padding-top: 20px;
   color: white;
 }
 
 .section2 .row3 .col-lg-2 .image .col-12 .content .row2 p {
+  line-height: 20px;
   padding: 0px 10px;
 }
 
@@ -422,11 +463,22 @@ nav .collapse .navbar-nav .dropdown:hover .dropdown-menu {
   background: #f6f6f6;
 }
 
-.section3 .row1 {
+.section3 .rowscroll2 {
   padding-top: 80px;
   font-weight: bold;
   letter-spacing: 2px;
   font-size: 30px;
+  -webkit-transform: scale(0.1);
+          transform: scale(0.1);
+  -webkit-transition: 1s;
+  transition: 1s;
+  opacity: 0;
+}
+
+.section3 .animatetoright {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .section3 .line {
@@ -449,15 +501,26 @@ nav .collapse .navbar-nav .dropdown:hover .dropdown-menu {
   width: 100px;
 }
 
-.section3 .row2 {
+.section3 .rowscroll2-2 {
   text-align: center;
   font-size: 14px;
+  -webkit-transform: scale(0.1);
+          transform: scale(0.1);
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+  opacity: 0;
 }
 
-.section3 .row2 p {
+.section3 .rowscroll2-2 p {
   letter-spacing: 1px;
   line-height: 24px;
   color: #646a7c;
+}
+
+.section3 .animatetoleft {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .section3 .row3 button {
@@ -617,6 +680,7 @@ nav .collapse .navbar-nav .dropdown:hover .dropdown-menu {
 }
 
 .section4 .row-main .col1 button {
+  display: block;
   width: 80px;
   height: 80px;
   border-style: none;
@@ -678,7 +742,7 @@ nav .collapse .navbar-nav .dropdown:hover .dropdown-menu {
   width: 100%;
 }
 
-.section4 .row-main .col2 .rowtoggle .r button {
+.section4 .row-main .col2 .rowtoggle .r .btnscroll1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -693,16 +757,27 @@ nav .collapse .navbar-nav .dropdown:hover .dropdown-menu {
   outline: none;
   font-size: 17px;
   letter-spacing: 1px;
+  -webkit-transform: scale(0.1);
+          transform: scale(0.1);
+  opacity: 0;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
 }
 
-.section4 .row-main .col2 .rowtoggle .r button p {
+.section4 .row-main .col2 .rowtoggle .r .btnscroll1 p {
   padding: 0 5px;
 }
 
-.section4 .row-main .col2 .rowtoggle .r button span {
+.section4 .row-main .col2 .rowtoggle .r .btnscroll1 span {
   padding: 0 5px;
   color: #e71c37;
   background-color: white;
+}
+
+.section4 .row-main .col2 .rowtoggle .r .animate {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  opacity: 1;
 }
 
 .section4 .row-main .col2 .rowtoggle .content {
@@ -881,5 +956,114 @@ nav .collapse .navbar-nav .dropdown:hover .dropdown-menu {
   font-size: 30px;
   color: #e71c37;
   font-weight: bold;
+}
+
+.footer {
+  width: 100%;
+  background-color: #222222;
+  padding: 50px 0;
+  color: white;
+}
+
+.footer .div1 {
+  color: white;
+}
+
+.footer .div1 h5 {
+  margin-bottom: 35px;
+  font-size: 22px;
+}
+
+.footer .div1 p {
+  color: #c8c8c8;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+
+.footer .div2 .row h5 {
+  font-size: 22px;
+}
+
+.footer .div2 .rr {
+  padding-left: 20px;
+}
+
+.footer .div2 .rr p {
+  list-style: none;
+  margin-left: -40px;
+  margin-top: 10px;
+}
+
+.footer .div2 .rr p i {
+  color: #494848;
+  font-size: 13px;
+}
+
+.footer .div2 .rr p a {
+  color: #b3b3b3;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.footer .div2 .rr p a:hover {
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  color: #E71B37;
+}
+
+.footer .div3 h5 {
+  font-size: 22px;
+}
+
+.footer .div3 img {
+  margin: 5px 5px 0px 0px;
+  border-radius: 5px;
+}
+
+.footer .div4 h5 {
+  margin-bottom: 30px;
+  font-size: 22px;
+}
+
+.footer .div4 p {
+  color: #b3b3b3;
+  margin-bottom: 10px;
+}
+
+.footer .div4 input {
+  width: 95%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  padding-left: 15px;
+  margin-bottom: 10px;
+}
+
+.footer .div4 button {
+  width: 95%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: #E71B37;
+  font-weight: bold;
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.footer .div4 button:hover {
+  background-color: rgba(20, 20, 20, 0.836);
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    height: 900px;
+  }
+  footer .div2 {
+    margin-top: 30px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

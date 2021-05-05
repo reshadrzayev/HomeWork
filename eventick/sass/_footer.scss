@@ -1,0 +1,100 @@
+.footer {
+    width: 100%;
+    background-color: #222222;
+    padding: 50px 0;
+    color: white;
+    .div1 {
+        color: white;
+        h5 {
+            margin-bottom: 35px;
+            font-size: 22px;
+        }
+        p{
+            color: #c8c8c8;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 1px;
+        }
+    }
+    .div2 {
+        .row{
+            h5{
+                font-size: 22px;
+            }
+        }
+        
+        .rr{   
+            padding-left: 20px;
+            p {
+                list-style: none;
+                margin-left: -40px;
+                margin-top: 10px;
+                i {
+                    color: rgb(73, 72, 72);
+                    font-size: 13px;
+                }
+                a {
+                    color: rgb(179, 179, 179);
+                    text-decoration: none;
+                    font-weight: bold;
+                    margin-left: 10px;
+                    font-size: 15px;
+                    &:hover {
+                        transition: color 0.5s;
+                        color: #E71B37;
+                    }
+                }
+            }
+        }    
+        
+    }
+    .div3 {
+        h5 {
+            font-size: 22px;
+        }
+        img {
+            margin: 5px 5px 0px 0px;
+            border-radius: 5px;
+        }
+    }
+    .div4 {
+        h5 {
+            margin-bottom: 30px;
+            font-size: 22px;
+        }
+        p {
+            color: rgb(179, 179, 179);
+            margin-bottom: 10px;
+        }
+        input {
+            width: 95%;
+            height: 40px;
+            border-radius: 5px;
+            border: none;
+            padding-left: 15px;
+            margin-bottom: 10px;
+        }
+        button {
+            width: 95%;
+            height: 40px;
+            border-radius: 5px;
+            border: none;
+            background-color: #E71B37;
+            font-weight: bold;
+            color: white;
+            transition: 0.5s;
+
+            &:hover {
+                background-color: rgba(20, 20, 20, 0.836);
+            }
+        }
+    }
+}
+@media screen and (max-width: 600px) {
+    footer {
+        height: 900px;
+        .div2 {
+            margin-top: 30px;
+        }
+    }
+}

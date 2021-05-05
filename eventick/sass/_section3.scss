@@ -1,10 +1,17 @@
 .section3{
     background: #f6f6f6;
-    .row1{
+    .rowscroll2{
         padding-top: 80px;
         font-weight: bold;
         letter-spacing: 2px;
         font-size: 30px;
+        transform: scale(0.1);
+        transition: 1s;
+        opacity: 0;
+    }
+    .animatetoright{
+        opacity: 1;
+        transform: scale(1);
     }
     .line{
         display: block;
@@ -22,7 +29,7 @@
     .line3{
         width: 100px;
     }
-    .row2{
+    .rowscroll2-2{
         text-align: center;
         font-size: 14px;
         p{
@@ -30,6 +37,13 @@
             line-height: 24px;
             color: #646a7c;
         }
+        transform: scale(0.1);
+        transition: 1.5s;
+        opacity: 0;
+    }
+    .animatetoleft{
+        opacity: 1;
+        transform: scale(1);
     }
     .row3{
         button{
