@@ -90,10 +90,18 @@
         }
     }
 }
+@media screen and (max-width: 992px) {
+    .footer {
+        
+        .div1,.div2,.div3,.div4 {
+            margin-left: 10px;
+        }
+    }
+}
 @media screen and (max-width: 600px) {
-    footer {
-        height: 900px;
-        .div2 {
+    .footer {
+        
+        .div1,.div2,.div3,.div4 {
             margin-top: 30px;
         }
     }

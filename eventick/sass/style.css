@@ -694,8 +694,86 @@ nav .collapse .navbar-nav .dropdown:hover .dropdown-menu {
   transition: 0.5s;
 }
 
+@-webkit-keyframes animate {
+  0% {
+    -webkit-transform: translate(-50%, -50%) scale(0.5);
+            transform: translate(-50%, -50%) scale(0.5);
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%) scale(1.5);
+            transform: translate(-50%, -50%) scale(1.5);
+  }
+}
+
+@keyframes animate {
+  0% {
+    -webkit-transform: translate(-50%, -50%) scale(0.5);
+            transform: translate(-50%, -50%) scale(0.5);
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%) scale(1.5);
+            transform: translate(-50%, -50%) scale(1.5);
+  }
+}
+
+.section4 .row-main .col1 button::before {
+  content: "";
+  position: absolute;
+  padding: 6%;
+  border: 1px solid white;
+  top: 50%;
+  left: 50%;
+  bottom: 50%;
+  right: 50%;
+  border-radius: 50%;
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  opacity: 0;
+}
+
+.section4 .row-main .col1 button::after {
+  content: "";
+  position: absolute;
+  padding: 8%;
+  border: 1px solid white;
+  top: 50%;
+  left: 50%;
+  bottom: 50%;
+  right: 50%;
+  border-radius: 50%;
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  opacity: 0;
+}
+
 .section4 .row-main .col1 button:hover i {
   color: gray;
+}
+
+.section4 .row-main .col1 button:hover::before {
+  opacity: 0.3;
+  -webkit-animation: animate 1.5s linear infinite;
+          animation: animate 1.5s linear infinite;
+}
+
+.section4 .row-main .col1 button:hover::after {
+  opacity: 0.7;
+  -webkit-animation: animate 1.5s linear infinite;
+          animation: animate 1.5s linear infinite;
 }
 
 .section4 .row-main .col2 .rowhead .header {
@@ -872,9 +950,13 @@ nav .collapse .navbar-nav .dropdown:hover .dropdown-menu {
   height: 40px;
   position: absolute;
   right: 5%;
-  bottom: 2%;
+  bottom: 5%;
   font-size: 18px;
   color: #e71c37;
+  -webkit-transform: translateX(80%);
+          transform: translateX(80%);
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .section5 .rowmain .c .image .content button i {
@@ -912,6 +994,11 @@ nav .collapse .navbar-nav .dropdown:hover .dropdown-menu {
 
 .section5 .rowmain .c .image:hover .content {
   opacity: 0.9;
+}
+
+.section5 .rowmain .c .image:hover button {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
 }
 
 .section6 .linerow .line {
@@ -1058,11 +1145,14 @@ nav .collapse .navbar-nav .dropdown:hover .dropdown-menu {
   background-color: rgba(20, 20, 20, 0.836);
 }
 
-@media screen and (max-width: 600px) {
-  footer {
-    height: 900px;
+@media screen and (max-width: 992px) {
+  .footer .div1, .footer .div2, .footer .div3, .footer .div4 {
+    margin-left: 10px;
   }
-  footer .div2 {
+}
+
+@media screen and (max-width: 600px) {
+  .footer .div1, .footer .div2, .footer .div3, .footer .div4 {
     margin-top: 30px;
   }
 }

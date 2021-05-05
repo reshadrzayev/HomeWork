@@ -63,9 +63,11 @@
                         height: 40px;
                         position: absolute;
                         right: 5%;
-                        bottom: 2%;
+                        bottom: 5%;
                         font-size: 18px;
                         color: #e71c37;
+                        transform: translateX(80%);
+                        transition: 1s;
                         i{
                             transition: 0.5s;
                         }
@@ -73,6 +75,7 @@
                     button:hover i{
                         color: black;
                     }
+                    
                 }
             }
             .image1{
@@ -96,6 +99,9 @@
             }
             .image:hover .content{
                 opacity: 0.9;
+            }
+            .image:hover button{
+                transform: translateX(0%)
             }
         }
     }
