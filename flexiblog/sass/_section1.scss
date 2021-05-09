@@ -1,0 +1,118 @@
+.section1{
+    background-color: #f8f8f8;
+    .rowmain{
+        border-radius: 30px;
+        background-color: white;
+        width: 80%;
+        .header{
+            padding-left: 1.8rem;
+            h2{
+                font-size: 48px;
+                line-height: 60px;
+                font-weight: bolder;
+            }
+        }
+       @media screen and (max-width:510px) {
+           .header{
+               h2{
+                   font-size: 35px;
+                   line-height: 45px;
+               }
+           }
+       }
+        .text{
+            padding-left: 1.8rem;
+            p{
+                font-size: 20px;
+                color: #718096;
+                line-height: 25px;
+            }
+        }
+        @media screen and (max-width:992px) {
+            .header,.text{
+                padding-right: 1.8rem;
+            }
+        }
+       
+        .buttons{
+            button{
+                margin: 10px 15px;
+                width: 160px;
+                font-size: 14px;
+                color: #718096;
+                height: 50px;
+                border-style: none;
+                border-radius: 25px;
+                background-color: #667eea;
+                border-color: #667eea;
+                transition: 0.3s;
+            }
+            .btn2{
+                background-color: white;
+                border: 3px #718096 solid ;
+            }
+            .btn1:hover{
+                background-color: #718096;
+            }
+            .btn2:hover{
+                border-color: #667eea;
+            }
+        }
+        @media screen and (max-width:631px) {
+            .buttons{
+                justify-content: center;
+                padding-left: 0 !important;
+            }
+        }
+    }
+    @media screen and (max-width:510px) {
+        .rowmain{
+            width: 100% !important;
+            border-radius: 0;
+        }
+    }
+    .img{
+        background-image: url(../img/hero.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        // transform: translateY(-50px);
+        transform: scale(1.2) translateY(-32px);
+        .rowimg{
+            display: flex;
+            position: absolute;
+            right: 11%;
+            bottom: 20%;
+            background-color: #fff;
+            border-radius: 10px;
+            .col-md-3{
+                i{
+                    font-size: 48px;
+                    color: #718096;
+                }
+                .count{
+                    color: #667eea;
+                    font-weight: bolder;
+                    font-size: 24px;
+                    margin-bottom: 5px;
+                }
+                .txt{
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: #718096;
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 992px) {
+        .img{
+            display: none;
+        }
+    }
+}
+@media screen and (max-width: 510px) {
+    .section1{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}

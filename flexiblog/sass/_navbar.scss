@@ -1,0 +1,32 @@
+nav{
+    background-color: white;
+    color: #718096;
+    // height: 144px;
+    a{
+        color: #718096;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    a:hover{
+        color: #667eea;
+    }
+    @media screen and (max-width: 510px) {
+        .navbar-brand{
+            margin: 0 !important;
+        }
+    }
+    @media screen and (max-width: 992px) {
+        .navbar-collapse{
+            margin-top: 50px;
+            li{
+                margin-top: 15px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 510px) {
+    .navbar{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+}
