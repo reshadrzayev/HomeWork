@@ -667,10 +667,8 @@ nav .black-white:hover .fa-circle {
 
 .section .roww .card {
   border-radius: 18px !important;
-  -webkit-transition: -webkit-transform 0.7s;
-  transition: -webkit-transform 0.7s;
-  transition: transform 0.7s;
-  transition: transform 0.7s, -webkit-transform 0.7s;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .section .roww .card .no-gutters {
@@ -686,7 +684,7 @@ nav .black-white:hover .fa-circle {
 @media screen and (max-width: 768px) {
   .section .roww .card .no-gutters {
     padding-left: 0;
-    padding-bottom: 70px;
+    padding-bottom: 100px;
   }
 }
 
@@ -733,6 +731,7 @@ nav .black-white:hover .fa-circle {
 @media screen and (max-width: 768px) {
   .section .roww .card .imgcol {
     height: auto;
+    min-height: 70%;
     margin-top: 10px;
   }
 }
@@ -815,5 +814,70 @@ nav .black-white:hover .fa-circle {
   .section .header .right {
     margin-left: 10px;
   }
+}
+
+.section8 {
+  border-radius: 15px;
+  background-color: white;
+}
+
+.section8 .mainrow {
+  -webkit-transform: translateX(-25%);
+          transform: translateX(-25%);
+  opacity: 0;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.section8 .mainrow .row1 h3 {
+  padding: 0 15px;
+  font-size: 24px;
+  color: #2d3748;
+  font-weight: bold;
+}
+
+.section8 .mainrow .row2 p {
+  padding: 0 15px;
+  font-size: 16px;
+  color: #718096;
+}
+
+.section8 .mainrow .row3 input {
+  padding: 0 15px;
+  border-radius: 3px;
+  background-color: #e2e8f0;
+  border-style: none;
+  width: 30%;
+  min-width: 200px;
+  padding: 10px 10px;
+  outline: none;
+}
+
+@media screen and (max-width: 350px) {
+  .section8 .mainrow .row3 {
+    width: auto;
+  }
+}
+
+.section8 .mainrow .row4 button {
+  width: 160px;
+  height: 50px;
+  color: white;
+  background-color: #667eea;
+  border-radius: 25px;
+  border-style: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.section8 .mainrow .row4 button:hover {
+  color: #edf2f7;
+  background-color: #718096;
+}
+
+.section8 .active-mainrow {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  opacity: 1;
 }
 /*# sourceMappingURL=style.css.map */

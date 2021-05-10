@@ -267,8 +267,18 @@ window.addEventListener('scroll',function(){
     } 
 });
 
-
-
+window.addEventListener('scroll',function(){
+    let section8 = document.querySelector(".section8");
+    let row = document.querySelector("#rowsec8")
+    let sec8pos = section8.getBoundingClientRect().top;
+    let screenPos = window.innerHeight;
+    if(sec8pos < screenPos){
+        row.classList.add("active-mainrow")
+    }
+    else{
+        row.classList.remove("active-mainrow")
+    }
+});
 
 
 
