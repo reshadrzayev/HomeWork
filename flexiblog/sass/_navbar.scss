@@ -10,6 +10,44 @@ nav{
     a:hover{
         color: #667eea;
     }
+    .black-white
+        {
+            transition: 0.5s;
+            margin-left: 20px;
+            height: 30px;
+            width: 52px;
+            background: linear-gradient(45deg,#FF7D6B,#FFD64C);
+            border-radius: 25px;
+            position: relative;
+            .fas
+            {
+                color: white;
+                font-size: 17px;
+                padding-top: 7px;
+            }
+            .fa-sun
+            {
+                margin-right: 5px;
+                float: right;
+            }
+            .fa-moon
+            {
+                margin-left: 5px;
+            }
+            .fa-circle
+            {
+                transition: 0.3s;
+                position: absolute;
+                top: -3px;
+                left: 2px;
+                font-size: 22px;
+                text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+            }
+        }
+        .black-white:hover .fa-circle{
+            transform: scale(1.2) translateY(-1.5px);
+        }
+
     @media screen and (max-width: 510px) {
         .navbar-brand{
             margin: 0 !important;

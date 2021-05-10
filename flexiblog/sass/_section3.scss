@@ -1,0 +1,110 @@
+.section3{
+    .rowmain{
+        border-radius: 30px;
+        height: auto;
+        padding: 180px 0;
+        position: relative;
+        background-image: url(../img/imageedit_3_2933342896.png);
+        // background-color: rgba(0,0,0,0.5);
+        
+        align-items: center;
+        width: 80%;
+        .img{
+            transform: scale(1.1) translateX(-150%);
+            position: absolute;
+            bottom: 0;
+            transition: 1s;
+        }
+        @media screen and (max-width: 992px) {
+            .img{
+                display: none;
+            }
+        }
+        .img-active{
+            transform: translateX(0) !important;
+        }
+        .content{
+            
+            position: absolute;
+            right: 0;
+            .row1{
+                h2{
+                    font-size: 48px;
+                    font-weight: bolder;
+                    color: #667eea;
+                }
+                transform: translateX(150%);
+                transition: 1s;
+            }
+            .row2{
+                p{
+                    color: #718096;
+                    font-size: 24px;
+                    line-height: 30px;
+                }
+                transform: translateX(150%);
+                transition: 1s;
+            }
+            .row3{
+                span{
+                    color: #2d3748;
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+                transform: translateX(150%);
+                transition: 1s;
+            }
+            .row-active1{
+                transform: translateX(0);
+            }
+        }
+        @media screen and (max-width: 992px) {
+            .content{
+                padding-left: 80px;
+            }
+        }
+    }
+    @media screen and(max-width:589px) {
+        .rowmain{
+            padding: 250px 0;
+        }
+    }
+    @media screen and(max-width:510px) {
+        .rowmain{
+            width: 100% !important;
+            
+        }
+    }
+    @media screen and(max-width:475px) {
+        .rowmain{
+            .content{
+                padding-left: 40px;
+                .row1{
+                    padding-right: 10px !important;
+                    h2{
+                        font-size: 38px;
+                        line-height: 50px;
+                    }
+                }
+                .row2{
+                    padding-right: 10px !important;
+                }
+            }
+        }
+    }
+    @media screen and(max-width:357px) {
+        .rowmain{
+            // padding: 350px 0;
+            .content{
+                padding-left: 25px;
+            }
+        }
+    }
+    
+}
+@media screen and (max-width : 510px) {
+    .section3{
+        padding-left: 0 !important;
+            padding-right: 0 !important;
+    }
+}

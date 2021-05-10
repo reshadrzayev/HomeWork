@@ -24,7 +24,7 @@
         }
     }
     .active{
-        transition: 0.5s;
+        transition: 0.3s;
         margin-top: 10px;
         
     }
@@ -136,5 +136,17 @@
                 }
             }
         }
+        
+    
     }
+    .owl-carousel{
+        transition: 1s;
+        opacity: 0;
+        transform: scale(0.1);
+    }
+    
+}
+.owl-active{
+    transform: scale(1) !important;
+    opacity: 1 !important;
 }

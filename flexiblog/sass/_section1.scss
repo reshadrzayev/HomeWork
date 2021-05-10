@@ -76,7 +76,6 @@
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
-        // transform: translateY(-50px);
         transform: scale(1.2) translateY(-32px);
         .rowimg{
             display: flex;
@@ -109,10 +108,18 @@
             display: none;
         }
     }
+    
+    animation-name: anime;
+    animation-duration: 4s;
 }
 @media screen and (max-width: 510px) {
     .section1{
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
+}
+
+@keyframes anime {
+    from{opacity: 0;}
+    to{opacity: 1;}
 }
